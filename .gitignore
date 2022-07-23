@@ -37,3 +37,6 @@ out/
 .vscode/
 
 docker/postgres/volumes
+
+# jooq generate code
+ddd-jooq-codes/src
