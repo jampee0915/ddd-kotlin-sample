@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/ddddb?currentSchema=ddd
+    username: ddduser
+    password: passw0rd
+    driverClassName: org.postgresql.Driver
+server:
+  port: 9000

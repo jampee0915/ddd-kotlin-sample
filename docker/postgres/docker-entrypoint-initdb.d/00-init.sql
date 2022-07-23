@@ -1,0 +1,6 @@
+DROP DATABASE IF EXISTS ddddb;
+
+CREATE DATABASE ddddb OWNER=ddduser ENCODING='UTF-8';
+
+\c ddddb;
+CREATE SCHEMA ddd;
